@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(250, 250,250);
+  margin: auto;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 350px;
+  margin-top: 40px;
+}
+.home{
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.about{
+  font-size: 20px;
+  align-content: center;
+  margin-top: 20px;
+  
+}
+.symptoms{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.precautions{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.footer {
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  color: gray;
+  margin: 0;
+}
+
+.main{
+  align-self: center;
+  text-align: center;
+}
+.github{
+  padding: 20px;
+  background-image: linear-gradient(90deg, #525a69,  #898dda);
+  margin-bottom: 5px;
+}
+.Linkedin{
+  padding: 20px;
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  margin-bottom: 5px;
+}
+span{
+  color: black;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 60%;
+  }
+}
