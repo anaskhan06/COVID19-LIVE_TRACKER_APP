@@ -19,7 +19,7 @@ export function Footer(props) {
       </div>
       <div className={styles.github}>
       <a
-        href="https://github.com/covid19india/covid19india-react"
+        href="https://github.com/anaskhan06/COVID19-LIVE_TRACKER_APP"
         className="button github"
         target="_blank"
         rel="noopener noreferrer"
@@ -30,14 +30,14 @@ export function Footer(props) {
       </div>
       <div className={styles.Linkedin}>
       <a
-        href="https://www.linkedin.com/in/mohdanas06"
+        href="https://pmnrf.gov.in/en/online-donation"
         target="_blank"
         rel="noopener noreferrer"
         className="button twitter"
         style={{justifyContent: 'center'}}
       >
-        <Icon.Linkedin />
-        <span>My LinkedIn Profile</span>
+        <Icon.Link />
+        <span> Donate PMNRF India</span>
       </a>
       </div>
       
