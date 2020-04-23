@@ -1,15 +1,32 @@
 import React from 'react'
 import styles from './App.module.css';
+import ReactPlayer from "react-player"
 
 export const Symptoms = () => (
   <div className={styles.symptoms}>
-    <p>
-    COVID-19 typically causes flu-like symptoms including a fever and cough.
-In some patients - particularly the elderly and others with other chronic health conditions
- - these symptoms can develop into pneumonia, with chest tightness, chest pain, and shortness of breath.
-It seems to start with a fever, followed by a dry cough.
-After a week, it can lead to shortness of breath, with about 20% of patients requiring hospital treatment.
-    </p>
     
+The COVID-19 virus affects different people in different ways.  COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment.  People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.
+
+<p><b>Common symptoms include:</b></p>
+<ul >
+<li>fever</li>
+<li>tiredness</li>
+<li>dry cough.</li>
+</ul>
+
+<p><b>Other symptoms include:</b></p>
+<ul>
+
+<li>shortness of breath</li>
+<li>aches and pains</li>
+<li>sore throat</li>
+<li>and very few people will report diarrhoea, nausea or a runny nose.</li>
+</ul>
+People with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral.
+
+People with fever, cough or difficulty breathing should call their doctor and seek medical attention.
+    <ReactPlayer className={styles.player}
+    url="http://youtu.be/1PLdl6NDGDE"
+    />
   </div>
 )
