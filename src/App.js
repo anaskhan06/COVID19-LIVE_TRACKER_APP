@@ -40,7 +40,6 @@ class App extends React.Component {
 
     return (
       <React.Fragment>
-        
         <Layout>
           <Router>
             <NavigationBar />
@@ -50,9 +49,6 @@ class App extends React.Component {
                   <Route path="/symptoms" component={Symptoms} />
                   <Route path="/precautions" component={Precautions} />
                   <Route component={NoMatch} />
-            
-          
-      
             </Switch>
           </Router>  
         </Layout>

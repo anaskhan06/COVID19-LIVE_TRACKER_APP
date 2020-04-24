@@ -29,7 +29,9 @@ export class Home extends React.Component {
       return (    
              
         <div className={styles.container}>
-          <h1 align="center">Welcome to the live statistics of COVID-19</h1>
+          <div className={styles.heading}>
+            <h1 align="center">Welcome to the live statistics of COVID-19</h1>
+          </div>  
           <img className={styles.image} src={image} alt="COVID-19" />
           <Cards data={data} />
           <CountryPicker handleCountryChange={this.handleCountryChange} />
