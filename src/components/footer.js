@@ -19,7 +19,7 @@ export function Footer(props) {
       </div>
       <div className={styles.github}>
       <a
-        href="https://github.com/anaskhan06/COVID19-LIVE_TRACKER_APP"
+        href="https://github.com/iHarshitKumar/ProjectMCA"
         className="button github"
         target="_blank"
         rel="noopener noreferrer"
