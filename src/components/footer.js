@@ -25,7 +25,7 @@ export function Footer(props) {
         rel="noopener noreferrer"
       >
         <Icon.GitHub />
-        <span>Open Sourced on GitHub</span>
+        <span>Open Sourced on GitHub By Harshit Kumar</span>
       </a>
       </div>
       <div className={styles.Linkedin}>
